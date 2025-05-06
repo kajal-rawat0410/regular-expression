@@ -1,0 +1,5 @@
+import re
+d=input("enter string:")
+p=r'\w{2,4}'
+res=re.findall(p,d)
+print(res)
