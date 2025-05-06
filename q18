@@ -1,0 +1,5 @@
+import re
+d=input("enter string:")
+p=r'\w+@[a-zA-Z]+\.com'
+res=re.findall(p,d)
+print(res)
