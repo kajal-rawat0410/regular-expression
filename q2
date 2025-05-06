@@ -1,0 +1,8 @@
+import re
+d=input("enter string")
+p="python"
+m=re.search(p,d)
+if m:
+    print("python")
+else:
+    print("does not contains python")
