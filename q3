@@ -1,5 +1,5 @@
 import re
-d="python-3.4 vrsion0.5"
+d=input("enter string:")
 p=r'[0-9]'
 m=re.findall(p,d)
 print(m)
