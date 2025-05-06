@@ -1,0 +1,5 @@
+import re
+d=input("enter string:")
+p=r'[A-Z]'
+m=re.findall(p,d)
+print(m)
